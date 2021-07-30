@@ -1,0 +1,4 @@
+name: Blockgame
+version: ${project.version}
+main: htb.blockgame.Blockgame
+api-version: 1.17
