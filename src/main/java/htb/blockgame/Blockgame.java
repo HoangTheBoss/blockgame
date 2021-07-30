@@ -18,7 +18,7 @@ import java.util.UUID;
 public final class Blockgame extends JavaPlugin implements Listener {
     Map<UUID, BlockInformation> lastPlacedBlock = new HashMap<>();
     Map<UUID, Instant> lastPlacedInstants = new HashMap<>();
-    int cooldown;
+    long cooldown;
 
     @Override
     public void onEnable() {
